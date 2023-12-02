@@ -1,0 +1,7 @@
+1. perbedaan arraylist dengan list ?
+list itu interface dan arraylist itu implementasi dari list2
+
+-----------------------------------------------------------------------------
+node = mempresentasikan setiap node dalam linked list
+setiap node memiliki satu data bertipe integer, dan satu referensi next yang menunjuk ke node berikutnya dalam linked list
+

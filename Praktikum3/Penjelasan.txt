@@ -1,0 +1,19 @@
+Stack merupakan salah satu struktur data yang digunakan dalam pemrograman. Stack mirip dengan tumpukan buku-buku di meja, di mana buku terakhir yang diletakkan menjadi buku pertama yang diambil.
+
+Secara umum, stack memiliki dua operasi dasar, yaitu push (menambahkan data ke dalam stack) dan pop (mengambil data dari stack). Saat push, data ditambahkan ke bagian paling atas dari stack. Saat pop, data diambil dari bagian paling atas stack dan dihapus.
+
+Konsep dasar dari stack adalah Last-In-First-Out (LIFO). Artinya, item yang terakhir dimasukkan ke dalam stack akan menjadi item pertama yang diambil dari stack. Dalam konteks pemrograman, stack biasanya digunakan untuk menyimpan alamat memori, variabel, atau fungsi yang sedang dieksekusi.
+
+stack LIFO (Last In- First-Out) -> tumpukan 
+top (atas)
+bottom (bawah)
+
+proses masuk dinamakan push
+proses keluar dinamakan pop
+melihat elemen paling atas dinamakan peek
+
+queue FIFO (First In- First Out) -> antrian
+proses masuk dari belakang/rear dinamakan unqueue
+proses keluar dari depan/front dinakaman dequeue  
+
+

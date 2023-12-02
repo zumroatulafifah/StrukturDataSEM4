@@ -1,0 +1,42 @@
+*natural join
+
+select department_id, depart_name, location_id, city 
+from departments
+natural join locations
+
+*inner join -> ini gabisa
+
+select e.employee_id, e.last_name, e.department_id, d.department_id, d.location_id
+from employees e
+inner join departments d
+on (e.department_id = d.department_id)
+
+*outer join -> left join
+
+select e.last_name, e.department_id, d.depart_name 
+from employees e
+left outer join departments d
+on (e.department_id = d.department_id)
+
+*outer join -> right join
+
+select e.last_name, e.department_id, d.depart_name 
+from employees e
+right outer join departments d
+on (e.department_id = d.department_id)
+
+*full outer join
+
+select e.last_name, e.department_id, d.depart_name
+from employees e
+full outer join departments d
+on (e.department_id = d.department_id)
+
+*cross join
+
+select e.last_name, e.department_id, d.depart_name 
+from employees e
+left outer join departments d
+on (e.department_id = d.department_id)
+
+

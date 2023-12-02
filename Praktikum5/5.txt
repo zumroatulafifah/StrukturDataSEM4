@@ -1,0 +1,26 @@
+pada aturan tree, simpul kiri memiliki nilai yang paling kecil, dan simpul kanan memiliki nilai yang lebih besar
+
+
+predesesor : simpul dengan nilai terbesar yang kurang dari nilai simpul tersebut (gampangannya dia simpul yang punya anak)
+
+successor : simpul anak, simpul dengan nilai terkecil
+
+ancestor : semua simpul yang berada diatas simpul tertentu dalam hirarki pohon
+
+descendant : simpul yang berada dibawah simpul2 tertentu
+
+parent : simpul yang berada diatas simpul tertentu dalam hirearki pohon
+
+child : simpul yang berada dibawah simpul tertentu dalam hireari pohon
+
+sibling : simpul yang mempunyai induk yang sama 
+
+degree : jumlah anak yang dimiliki oleh suatu simpul 
+
+height : yingggi
+
+root : akar
+
+leaf : simpul yang gapunya anak
+
+size : 9
